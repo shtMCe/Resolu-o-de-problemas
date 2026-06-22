@@ -1,3 +1,29 @@
+/*
+7. Faça um programa para simular uma agenda telefônica. Para cada pessoa
+devem-se ter os seguintes dados:
+● Nome
+● E-mail
+● Endereço (contendo campos para rua, número, complemento, bairro,
+cep, cidade, estado e país)
+● Telefone (contendo campo para DDD e número)
+● Data de aniversário (contendo campo para dia, mês, ano).
+● Observações: Uma linha (string) para observações especiais.
+a) Definir as estruturas acima.
+b) Declarar a variável agenda (vetor) com capacidade para armazenar até 100
+contatos.
+c) Definir um bloco de instruções que busca pelo primeiro nome: imprime os
+dados da pessoa com esse nome (se houver mais de uma pessoa, imprime
+para todas).
+d) Definir um bloco de instruções que busca por mês de aniversário: Imprime os
+dados de todas as pessoas que fazem aniversário nesse mês.
+e) Definir um bloco de instruções que busca por dia e mês de aniversário:
+Imprime os dados de todas as pessoas que fazem aniversário nesse dia e
+mês.
+f) Definir um bloco de instruções insere pessoa: Insere por ordem alfabética do
+nome.
+*/
+
+
 #include <stdio.h>
 #include <string.h> // Biblioteca necessária para usar strcmp() 
 
